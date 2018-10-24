@@ -14,6 +14,10 @@ const { Restaurant } = require('./models');
 
 const app = express();
 app.use(express.json());
+app.get('/', (req, res) => {
+  res.json({message: "hello world"})
+});
+
 
 // GET requests to /restaurants => return 10 restaurants
 app.get('/restaurants', (req, res) => {
