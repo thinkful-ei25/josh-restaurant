@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: SZZCQMgFQvryA8QUt63suQCT9Shwi4L8NraIWJkAOkpd5kPST6pZ76BFveZOJ0f5aOA3a9hWobILCoQMzjBzd172eJV13JO/ObkjFwKjiPfUNAeptjoXUypOLGhX+zPH1BAaHbGII4taeY3E2KoO0/4TlnRuF/YWKuQR9Uwe3h9sPLYIBEGzRDDyORuwbQLsEbGH4l9gU5kgfYvm+C//zdL47Db4G+DVeiYiPArmaXIwKCzMP6OaaZs5OYvW6BBlqf5ikoSloVHUYjm//M1I34eU9CXK909PFreytks/sFIBTp3K+JwtaTa/VwscmOFcZdwKo+03QpbByS6WBOGxhrjyTo7mcLKwybz8+nx40T6/hmtPnxq05PVPxmVNIJeryryL4kv65tqgitoLZz1jvDIP5bWIieQRF51MOGMl3yeSYE9pn2V9MxqFuGbwhDeUuM/MXQ6n+5jnWLPNTE4Dm8mzkBQsfdRIDbMD8Gu8SEZ4JGbT2PxucSvxYgpFeRKNKwlYbAXOrC1q/ebBFlBqt/N2c74tqAGXJcGLzXWCRrfDD+yfs1WWCOd8BSbPeP1gjzZIpqTCsTPnr2xdSn32WlVW0k35Wdye4+Cag7tVB/6kcXVnOTVtUt/9rYMwouT4c1hTK3m1ss7X+zglfBxgllPxoAfgFYNPGsTpI75EoOA=
+  app: tranquil-sierra-24280
+  on:
+    repo: thinkful-ei25/josh-restaurant
